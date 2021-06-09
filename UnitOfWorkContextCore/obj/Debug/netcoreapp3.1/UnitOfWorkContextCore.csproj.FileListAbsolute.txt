@@ -1,0 +1,12 @@
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.deps.json
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.pdb
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.pdb
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.csprojAssemblyReference.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.AssemblyInfoInputs.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.AssemblyInfo.cs
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.csproj.CoreCompileInputs.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.csproj.CopyComplete
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.pdb

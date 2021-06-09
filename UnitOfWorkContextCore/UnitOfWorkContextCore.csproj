@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>UnitOfWorkContext.Core</PackageId>
+		<Version>1.0.0.0</Version>
+		<PackageVersion>1.0.0.0</PackageVersion>
+		<Authors>emmanuel.caamal</Authors>
+		<Company>None</Company>
+		<PackageTags>EntityFrameWorkCore, Context</PackageTags>
+		<Description>
+			Permite abstraer la unidad de trabajo de un contexto
+		</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\UnitOfWorkContextCore.WorkspaceContext\UnitOfWorkContextCore.WorkspaceContext.csproj" />
+	</ItemGroup>
+
+</Project>

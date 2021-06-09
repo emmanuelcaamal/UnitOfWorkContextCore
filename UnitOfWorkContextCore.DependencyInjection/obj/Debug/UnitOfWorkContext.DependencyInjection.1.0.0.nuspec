@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UnitOfWorkContext.DependencyInjection</id>
+    <version>1.0.0</version>
+    <authors>emmanuel.caamal</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Proporciona una extensión de IServiceCollection para inyectar el contexto de una base de datos a UnitOfWork</description>
+    <tags>EntityFrameWorkCore, Context, DependencyInjection</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="UnitOfWorkContext.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.dll" target="lib\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.dll" />
+  </files>
+</package>

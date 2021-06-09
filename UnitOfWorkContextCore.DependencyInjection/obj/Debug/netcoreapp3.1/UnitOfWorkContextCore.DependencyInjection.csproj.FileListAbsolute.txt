@@ -1,0 +1,14 @@
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.csprojAssemblyReference.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.AssemblyInfo.cs
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.deps.json
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.pdb
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.pdb
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.pdb
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.csproj.CopyComplete
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.DependencyInjection.pdb
