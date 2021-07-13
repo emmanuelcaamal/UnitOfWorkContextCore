@@ -14,12 +14,5 @@ namespace UnitOfWorkContextCore.DependencyInjection
 
             return services;
         }
-
-        public static IServiceCollection AddWorkspaceUnitOfWork(this IServiceCollection services)
-        {
-            services.AddScoped<IUnitOfWorkspace, UnitOfWorkspace>();
-
-            return services;
-        }
     }
 }

@@ -11,5 +11,7 @@ namespace UnitOfWorkContextCore.Interfaces
         void InsertRange(ICollection<T> entities);
 
         void UpdateRange(ICollection<T> entities);
+
+        T Delete(T entity);
     }
 }

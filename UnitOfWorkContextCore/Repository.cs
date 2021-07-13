@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using UnitOfWorkContextCore.Interfaces;
 
 namespace UnitOfWorkContextCore
@@ -31,6 +29,11 @@ namespace UnitOfWorkContextCore
         public void UpdateRange(ICollection<T> entities)
         {
             _dbSet.UpdateRange(entities);
+        }
+
+        public T Delete(T entity)
+        {
+            return _dbSet.Remove(entity).Entity;
         }
     }
 }

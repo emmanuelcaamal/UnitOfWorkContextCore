@@ -1,0 +1,16 @@
+
+*.dll
+
+*.pdb
+
+*.v2
+
+*.nupkg
+
+*.cache
+
+*.nuspec
+
+*.txt
+
+*.props

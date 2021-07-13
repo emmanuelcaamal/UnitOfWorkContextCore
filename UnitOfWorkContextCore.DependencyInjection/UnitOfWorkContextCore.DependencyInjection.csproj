@@ -4,17 +4,18 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageId>UnitOfWorkContext.DependencyInjection</PackageId>
-	  <Version>1.0.0.0</Version>
-	  <PackageVersion>1.0.0.0</PackageVersion>
+	  <Version>1.0.0.2</Version>
+	  <PackageVersion>1.0.0.2</PackageVersion>
 	  <Authors>emmanuel.caamal</Authors>
 	  <Company>None</Company>
-	  <PackageTags>EntityFrameWorkCore, Context, DependencyInjection</PackageTags>
+	  <PackageTags>UnitOfWorkContext, DependencyInjection</PackageTags>
 	  <Description>
 		  Proporciona una extensión de IServiceCollection para inyectar el contexto de una base de datos a UnitOfWork
 	  </Description>
   </PropertyGroup>
 
   <ItemGroup>
+	<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
   </ItemGroup>
 
