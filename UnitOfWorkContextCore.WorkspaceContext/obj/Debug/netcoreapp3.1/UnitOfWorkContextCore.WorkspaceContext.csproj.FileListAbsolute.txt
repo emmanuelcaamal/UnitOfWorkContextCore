@@ -1,8 +1,0 @@
-C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.WorkspaceContext\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.deps.json
-C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.WorkspaceContext\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.dll
-C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.WorkspaceContext\bin\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.pdb
-C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.WorkspaceContext\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.AssemblyInfoInputs.cache
-C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.WorkspaceContext\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.AssemblyInfo.cs
-C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.WorkspaceContext\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.csproj.CoreCompileInputs.cache
-C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.WorkspaceContext\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.dll
-C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\UnitOfWorkContext\UnitOfWorkContextCore.WorkspaceContext\obj\Debug\netcoreapp3.1\UnitOfWorkContextCore.WorkspaceContext.pdb
