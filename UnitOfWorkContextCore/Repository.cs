@@ -31,9 +31,14 @@ namespace UnitOfWorkContextCore
             _dbSet.UpdateRange(entities);
         }
 
-        public T Delete(T entity)
+        public T Remove(T entity)
         {
             return _dbSet.Remove(entity).Entity;
+        }
+
+        public void RemoveRange(ICollection<T> entities)
+        {
+            _dbSet.RemoveRange(entities);
         }
     }
 }

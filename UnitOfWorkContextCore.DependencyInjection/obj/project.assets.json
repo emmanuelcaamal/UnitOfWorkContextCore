@@ -162,7 +162,7 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
-      "UnitOfWorkContext.Core/1.0.0.2": {
+      "UnitOfWorkContext.Core/1.0.0.3": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -534,7 +534,7 @@
         "version.txt"
       ]
     },
-    "UnitOfWorkContext.Core/1.0.0.2": {
+    "UnitOfWorkContext.Core/1.0.0.3": {
       "type": "project",
       "path": "../UnitOfWorkContextCore/UnitOfWorkContextCore.csproj",
       "msbuildProject": "../UnitOfWorkContextCore/UnitOfWorkContextCore.csproj"
@@ -544,7 +544,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 5.0.5",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0",
-      "UnitOfWorkContext.Core >= 1.0.0.2"
+      "UnitOfWorkContext.Core >= 1.0.0.3"
     ]
   },
   "packageFolders": {
