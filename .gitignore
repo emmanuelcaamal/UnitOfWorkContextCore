@@ -14,3 +14,17 @@
 *.txt
 
 *.props
+
+UnitOfWorkContextCore.DependencyInjection/obj/Debug/netcoreapp3.1/
+
+UnitOfWorkContextCore.DependencyInjection/obj/
+
+UnitOfWorkContextCore.WorkspaceContext/obj/
+
+UnitOfWorkContextCore/obj/
+
+.vs/UnitOfWorkContext/FileContentIndex/
+
+.vs/UnitOfWorkContext/v16/
+
+.vs/UnitOfWorkContext/v17/
