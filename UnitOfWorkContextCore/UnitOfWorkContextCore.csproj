@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<TargetFramework>net6.0</TargetFramework>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>UnitOfWorkContext.Core</PackageId>
-		<Version>1.0.0.3</Version>
-		<PackageVersion>1.0.0.3</PackageVersion>
+		<Version>1.0.6.1</Version>
+		<PackageVersion>1.0.6.1</PackageVersion>
 		<Authors>emmanuel.caamal</Authors>
 		<Company>None</Company>
 		<PackageTags>UnitOfWorkContext</PackageTags>
@@ -19,7 +19,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
 	</ItemGroup>
 
 </Project>
