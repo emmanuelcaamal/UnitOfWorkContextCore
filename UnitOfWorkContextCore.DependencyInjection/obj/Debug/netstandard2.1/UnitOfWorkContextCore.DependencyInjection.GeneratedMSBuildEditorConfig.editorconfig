@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = UnitOfWorkContextCore.DependencyInjection
+build_property.ProjectDir = C:\Projects\ITGroup\UnitOfWorkContext\UnitOfWorkContextCore.DependencyInjection\

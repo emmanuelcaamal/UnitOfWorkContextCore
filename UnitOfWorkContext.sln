@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWorkContextCore", "Un
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWorkContextCore.DependencyInjection", "UnitOfWorkContextCore.DependencyInjection\UnitOfWorkContextCore.DependencyInjection.csproj", "{D50FA459-FC84-4780-BF94-8DBE3AF91DB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWorkContextCore.WorkspaceContext", "UnitOfWorkContextCore.WorkspaceContext\UnitOfWorkContextCore.WorkspaceContext.csproj", "{FECBD499-3A64-4CCC-99A7-A29BCCFAA4F4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{D50FA459-FC84-4780-BF94-8DBE3AF91DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D50FA459-FC84-4780-BF94-8DBE3AF91DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D50FA459-FC84-4780-BF94-8DBE3AF91DB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FECBD499-3A64-4CCC-99A7-A29BCCFAA4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FECBD499-3A64-4CCC-99A7-A29BCCFAA4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FECBD499-3A64-4CCC-99A7-A29BCCFAA4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FECBD499-3A64-4CCC-99A7-A29BCCFAA4F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
