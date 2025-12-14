@@ -3,16 +3,50 @@
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+		<!-- Package Identity -->
 		<PackageId>UnitOfWorkContext.Core</PackageId>
-		<Version>1.8.0.13</Version>
-		<PackageVersion>1.8.0.13</PackageVersion>
+		<Version>1.9.0</Version>
+		<PackageVersion>1.9.0</PackageVersion>
+
+		<!-- Package Metadata -->
 		<Authors>emmanuel.caamal</Authors>
 		<Company>None</Company>
-		<PackageTags>UnitOfWorkContext</PackageTags>
-		<Description>
-			Permite abstraer las transacciones de un contexto de base de datos.
-		</Description>
+		<Product>UnitOfWork Context Core</Product>
+		<Description>Librería .NET para implementar el patrón Unit of Work y Repository con Entity Framework Core. Soporta múltiples contextos, esquemas de base de datos, paginación, transacciones y resolución dinámica con Factory Pattern. Ideal para arquitecturas modulares y multi-tenant.</Description>
+		<PackageTags>unitofwork;repository;pattern;entityframeworkcore;efcore;orm;database;transaction;pagination;multischema;factory;dependency-injection;csharp;dotnet;netcore</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<!-- Package URLs -->
+		<PackageProjectUrl>https://github.com/emmanuelcaamal/UnitOfWorkContextCore</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/emmanuelcaamal/UnitOfWorkContextCore</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+
+		<!-- Release Notes -->
+		<PackageReleaseNotes>
+v1.9.0 - Factory Pattern para Múltiples Esquemas
+- Nuevo IUnitOfWorkFactory para resolución dinámica de contextos
+- Soporte para múltiples DbContext con esquemas diferentes
+- Métodos AddUnitOfWork(string key) y AddUnitOfWorkFactory()
+- Método GetRegisteredContexts() para debugging
+- Validación de contextos con HasContext()
+- Thread-safe con locks en registro de contextos
+- Backward compatible con versiones anteriores
+- Documentación completa con 3 guías (README, MultiSchema, QuickStart)
+
+Ver CHANGELOG.md para historial completo.
+		</PackageReleaseNotes>
+
+		<!-- Documentation -->
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
 	</PropertyGroup>
+
+	<!-- Include README in NuGet package -->
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 	<ItemGroup>
 	  <Compile Remove="UnitOfWorkspace.cs" />

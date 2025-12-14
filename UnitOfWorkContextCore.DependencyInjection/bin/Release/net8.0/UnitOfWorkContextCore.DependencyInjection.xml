@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnitOfWorkContextCore.DependencyInjection</name>
+    </assembly>
+    <members>
+        <member name="M:UnitOfWorkContextCore.DependencyInjection.InjectUnitOfWorkExtension.AddUnitOfWork``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Registra un UnitOfWork para el contexto especificado.
+            Método tradicional para uso con inyección directa de IUnitOfWork&lt;TContext&gt;.
+            </summary>
+            <typeparam name="TContext">Tipo del DbContext a registrar</typeparam>
+            <param name="services">Colección de servicios</param>
+            <returns>Colección de servicios para encadenamiento</returns>
+        </member>
+        <member name="M:UnitOfWorkContextCore.DependencyInjection.InjectUnitOfWorkExtension.AddUnitOfWork``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            Registra un UnitOfWork para el contexto especificado con una clave única.
+            Permite resolución dinámica del contexto usando IUnitOfWorkFactory.
+            </summary>
+            <typeparam name="TContext">Tipo del DbContext a registrar</typeparam>
+            <param name="services">Colección de servicios</param>
+            <param name="contextKey">Clave única para identificar el contexto (ej: "account", "catalog", "payment")</param>
+            <returns>Colección de servicios para encadenamiento</returns>
+            <exception cref="T:System.ArgumentNullException">Si contextKey es null o vacío</exception>
+            <exception cref="T:System.InvalidOperationException">Si ya existe un contexto registrado con la misma clave</exception>
+            <example>
+            services.AddUnitOfWork&lt;AccountContext&gt;("account");
+            services.AddUnitOfWork&lt;CatalogContext&gt;("catalog");
+            services.AddUnitOfWork&lt;PaymentContext&gt;("payment");
+            </example>
+        </member>
+        <member name="M:UnitOfWorkContextCore.DependencyInjection.InjectUnitOfWorkExtension.AddUnitOfWorkFactory(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+             <summary>
+             Registra la factory de UnitOfWork para resolución dinámica de contextos.
+             Debe llamarse DESPUÉS de registrar todos los contextos con AddUnitOfWork.
+             </summary>
+             <param name="services">Colección de servicios</param>
+             <returns>Colección de servicios para encadenamiento</returns>
+             <example>
+             // Primero registrar contextos
+             services.AddUnitOfWork&lt;AccountContext&gt;("account");
+             services.AddUnitOfWork&lt;CatalogContext&gt;("catalog");
+            
+             // Luego registrar la factory
+             services.AddUnitOfWorkFactory();
+            
+             // Uso en servicios:
+             public MyService(IUnitOfWorkFactory factory)
+             {
+                 var accountUoW = factory.GetUnitOfWork("account");
+                 var catalogUoW = factory.GetUnitOfWork&lt;CatalogContext&gt;();
+             }
+             </example>
+        </member>
+        <member name="M:UnitOfWorkContextCore.DependencyInjection.InjectUnitOfWorkExtension.GetRegisteredContexts">
+            <summary>
+            Obtiene la lista de contextos registrados (útil para debugging)
+            </summary>
+            <returns>Diccionario de contextos registrados (clave → tipo)</returns>
+        </member>
+    </members>
+</doc>

@@ -3,16 +3,50 @@
   <PropertyGroup>
 	  <TargetFramework>net8.0</TargetFramework>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+	  <!-- Package Identity -->
 	  <PackageId>UnitOfWorkContext.DependencyInjection</PackageId>
-	  <Version>1.8.0.13</Version>
-	  <PackageVersion>1.8.0.13</PackageVersion>
+	  <Version>1.9.0</Version>
+	  <PackageVersion>1.9.0</PackageVersion>
+
+	  <!-- Package Metadata -->
 	  <Authors>emmanuel.caamal</Authors>
 	  <Company>None</Company>
-	  <PackageTags>UnitOfWorkContext, DependencyInjection</PackageTags>
-	  <Description>
-		  Proporciona una extensión de IServiceCollection para inyectar el contexto de una base de datos a UnitOfWorkContextCore
-	  </Description>
+	  <Product>UnitOfWork Context Core - Dependency Injection</Product>
+	  <Description>Extensiones de inyección de dependencias para UnitOfWorkContextCore. Proporciona métodos de extensión para IServiceCollection que facilitan el registro de UnitOfWork, múltiples contextos con claves únicas, y Factory Pattern para resolución dinámica. Incluye AddUnitOfWork, AddUnitOfWorkFactory y GetRegisteredContexts.</Description>
+	  <PackageTags>unitofwork;dependency-injection;di;ioc;entityframeworkcore;efcore;factory;multischema;csharp;dotnet;netcore;iservicecollection</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+
+	  <!-- Package URLs -->
+	  <PackageProjectUrl>https://github.com/emmanuelcaamal/UnitOfWorkContextCore</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/emmanuelcaamal/UnitOfWorkContextCore</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+
+	  <!-- Release Notes -->
+	  <PackageReleaseNotes>
+v1.9.0 - Factory Pattern para Múltiples Esquemas
+- Nuevo método AddUnitOfWork&lt;TContext&gt;(string key) para registro con clave
+- Nuevo método AddUnitOfWorkFactory() para habilitar resolución dinámica
+- Método GetRegisteredContexts() para debugging de contextos registrados
+- Validación de claves duplicadas con mensajes descriptivos
+- Thread-safe con locks en registro global
+- Backward compatible: AddUnitOfWork&lt;TContext&gt;() sigue funcionando
+- Documentación completa con ejemplos y guías
+
+Requiere UnitOfWorkContext.Core >= 1.9.0
+Ver CHANGELOG.md para historial completo.
+	  </PackageReleaseNotes>
+
+	  <!-- Documentation -->
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
+
+  <!-- Include README in NuGet package -->
+  <ItemGroup>
+	  <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.13" />
