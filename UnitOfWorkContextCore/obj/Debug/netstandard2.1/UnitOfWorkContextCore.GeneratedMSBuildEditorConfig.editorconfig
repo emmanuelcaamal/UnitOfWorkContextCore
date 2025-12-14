@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = UnitOfWorkContextCore
-build_property.ProjectDir = C:\Projects\ITGroup\UnitOfWorkContext\UnitOfWorkContextCore\
+build_property.ProjectDir = /Users/emmanuelcaamal/Projects/UnitOfWorkContextCore/UnitOfWorkContextCore/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
